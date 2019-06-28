@@ -10,13 +10,13 @@ public class Leaf implements BinTree {
     }
 
     @Override
-    public boolean contains(ContainsFunctor cf) {
-        return cf.visit(this);
+    public boolean contains(ContainsFunctor containsFunctor) {
+        return containsFunctor.visit(this);
     }
 
     @Override
-    public int sum(SumFunctor af) {
-        return af.visit(this);
+    public int sum(SumFunctor sumFunctor) {
+        return sumFunctor.visit(this);
     }
 
 }

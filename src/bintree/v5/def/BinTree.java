@@ -6,7 +6,7 @@ import bintree.v5.func.SumFunctor;
 public interface BinTree {
 
 
-  boolean contains(ContainsFunctor cf);
+  boolean contains(ContainsFunctor containsFunctor);
 
-  int sum(SumFunctor af);
+  int sum(SumFunctor sumFunctor);
 }

@@ -14,7 +14,11 @@ public class SumAccumulator implements IAction{
 
 	@Override
 	public void on(Leaf leaf) {
-		sum=sum+leaf.value;
+		accumulate(leaf.value);
+	}
+
+	private void accumulate(int value){
+		sum=sum+value;
 	}
 
 	public int getSum() {

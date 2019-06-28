@@ -5,7 +5,7 @@ import bintree.v8.def.Node;
 
 public class ContainsFunctor implements IVisitor<Boolean> {
 
-	int i;
+	private final int i;
 	public ContainsFunctor(int i){
 		this.i=i;
 	}

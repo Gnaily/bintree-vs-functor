@@ -4,6 +4,6 @@ import bintree.v3.func.ContainsFunctor;
 
 public interface BinTree {
 
-  boolean contains(ContainsFunctor cf);
+  boolean contains(ContainsFunctor containsFunctor);
 
 }

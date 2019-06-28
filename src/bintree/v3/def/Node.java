@@ -13,8 +13,8 @@ public class Node implements BinTree {
     }
 
     @Override
-    public boolean contains(ContainsFunctor cf) {
-        return cf.contains(this);
+    public boolean contains(ContainsFunctor containsFunctor) {
+        return containsFunctor.contains(this);
     }
 
 }

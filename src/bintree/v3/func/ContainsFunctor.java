@@ -5,7 +5,7 @@ import bintree.v3.def.Node;
 
 public class ContainsFunctor {
 
-	int i;
+	int i;//declare it with private final would be better
 	public ContainsFunctor(int i){
 		this.i=i;
 	}
